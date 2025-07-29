@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM POC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Custom LLM Proof of Concept</h1>
+        <div class="form-container">
+            <div class="input-group">
+                <label for="userId">User ID:</label>
+                <input type="text" id="userId" placeholder="Enter your user ID">
+            </div>
+            <div class="input-group">
+                <label for="query">Query:</label>
+                <textarea id="query" rows="5" placeholder="Enter your query"></textarea>
+            </div>
+            <button id="submitBtn">Submit Query</button>
+        </div>
+        <div id="resultContainer" class="hidden">
+            <h2>Results</h2>
+            <div class="result-item">
+                <span class="label">User ID:</span>
+                <span id="resultUserId" class="value"></span>
+            </div>
+            <div class="result-item">
+                <span class="label">Query:</span>
+                <span id="resultQuery" class="value"></span>
+            </div>
+            <div class="result-item">
+                <span class="label">Predicted Class:</span>
+                <span id="resultClass" class="value"></span>
+            </div>
+            <div class="result-item">
+                <span class="label">Confidence:</span>
+                <span id="resultConfidence" class="value"></span>
+            </div>
+            <div class="result-item">
+                <span class="label">Processing Time:</span>
+                <span id="resultTime" class="value"></span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

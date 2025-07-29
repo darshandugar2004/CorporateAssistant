@@ -1,0 +1,1 @@
+mail_category/model.safetensors filter=lfs diff=lfs merge=lfs -text
