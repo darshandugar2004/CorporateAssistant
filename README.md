@@ -2,6 +2,8 @@
 
 This project demonstrates a practical application of a fine-tuned Large Language Model (LLM) for corporate data classification, with a strong focus on on-premise deployment and data privacy. It showcases a complete solution, from model fine-tuning to a secure, multi-component application architecture.
 
+Model link : https://huggingface.co/darshandugar/MailClassifier-DistilBERT
+
 ## 🌟 Key Features
 
 * **Custom LLM Fine-tuning:** A pre-trained `distilbert-base-uncased` model is fine-tuned on a custom dataset to categorize corporate emails.
